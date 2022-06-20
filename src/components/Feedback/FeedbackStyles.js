@@ -4,26 +4,20 @@ export const FeedbackButtonList = styled.ul`
   display: flex;
   flex-wrap: wrap;
   list-style-type: none;
-  gap: 10px;
   @media screen and (max-width: 480px) {
     display: block;
   }
 `;
 
 export const FeedbackButtonListItem = styled.button`
-  max-width: 150px;
-  margin-bottom: 10px;
-  text-decoration: none;
-  padding: 0.75rem 1.65rem;
-  cursor: pointer;
-  border: 2px solid darkgrey;
-  border-radius: 10%;
-  background-color: aqua;
-  text-transform: uppercase;
+  padding: 5px;
+  border: solid 1px #bdbdbd;
+  border-radius: 25px;
+  box-shadow: 0px 8px 10px -9px rgba(66, 68, 90, 1);
+  margin-left: 10px;
+  background-color: white;
 
-  &:hover {
-    /* background-color: yellow; */
-    transform: rotate(3deg);
-    font-weight: bold;
+  &:active {
+    background-color: #335cff;
   }
 `;
